@@ -25,6 +25,7 @@
 		96B10E4E23E5105D00174973 /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4D23E5105D00174973 /* FireworkSpark.swift */; };
 		96B10E5023E510C800174973 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4F23E510C800174973 /* Firework.swift */; };
 		96B10E5223E515C400174973 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E5123E515C400174973 /* CGPoint+Extensions.swift */; };
+		96B10E5423E519E800174973 /* ClassicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E5323E519E800174973 /* ClassicFirework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		96B10E4D23E5105D00174973 /* FireworkSpark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
 		96B10E4F23E510C800174973 /* Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
 		96B10E5123E515C400174973 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		96B10E5323E519E800174973 /* ClassicFirework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFirework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				96B10E3E23E5032E00174973 /* ClassicSparkTrajectoryFactoryProtocol.swift */,
 				96B10E4023E503EB00174973 /* ClassicSparkTrajectoryFactory.swift */,
+				96B10E5323E519E800174973 /* ClassicFirework.swift */,
 			);
 			path = "Classic Firework";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				96B10E1B23E4F7F600174973 /* AppDelegate.swift in Sources */,
 				96B10E1D23E4F7F600174973 /* SceneDelegate.swift in Sources */,
 				96B10E4123E503EB00174973 /* ClassicSparkTrajectoryFactory.swift in Sources */,
+				96B10E5423E519E800174973 /* ClassicFirework.swift in Sources */,
 				96B10E4323E50CD200174973 /* SparkView.swift in Sources */,
 				96B10E4823E50DD300174973 /* Color+SparkSet.swift in Sources */,
 				96B10E5023E510C800174973 /* Firework.swift in Sources */,
