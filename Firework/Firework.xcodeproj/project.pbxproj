@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B10E1B23E4F7F600174973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1A23E4F7F600174973 /* AppDelegate.swift */; };
+		96B10E1D23E4F7F600174973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1C23E4F7F600174973 /* SceneDelegate.swift */; };
+		96B10E1F23E4F7F600174973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1E23E4F7F600174973 /* ViewController.swift */; };
+		96B10E2223E4F7F600174973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2023E4F7F600174973 /* Main.storyboard */; };
+		96B10E2423E4F7F900174973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2323E4F7F900174973 /* Assets.xcassets */; };
+		96B10E2723E4F7F900174973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2523E4F7F900174973 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B10E1723E4F7F600174973 /* Firework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B10E1A23E4F7F600174973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96B10E1C23E4F7F600174973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96B10E1E23E4F7F600174973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96B10E2123E4F7F600174973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96B10E2323E4F7F900174973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B10E2623E4F7F900174973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96B10E2823E4F7F900174973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B10E1423E4F7F600174973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B10E0E23E4F7F600174973 = {
+			isa = PBXGroup;
+			children = (
+				96B10E1923E4F7F600174973 /* Firework */,
+				96B10E1823E4F7F600174973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B10E1823E4F7F600174973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B10E1723E4F7F600174973 /* Firework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B10E1923E4F7F600174973 /* Firework */ = {
+			isa = PBXGroup;
+			children = (
+				96B10E3023E4F94B00174973 /* Demo App */,
+				96B10E2F23E4F94100174973 /* Custom Fireworks */,
+				96B10E2E23E4F93C00174973 /* Fireworks */,
+				96B10E2823E4F7F900174973 /* Info.plist */,
+			);
+			path = Firework;
+			sourceTree = "<group>";
+		};
+		96B10E2E23E4F93C00174973 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B10E3723E4F98B00174973 /* Spark Views */,
+				96B10E3623E4F98500174973 /* System Extensions */,
+				96B10E3523E4F98200174973 /* Model */,
+				96B10E3423E4F97F00174973 /* Classic Firework */,
+				96B10E3323E4F97800174973 /* Fountain Firework */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		96B10E2F23E4F94100174973 /* Custom Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B10E3223E4F97200174973 /* Pusheen Fireworks */,
+				96B10E3123E4F96D00174973 /* Duck Fireworks */,
+			);
+			path = "Custom Fireworks";
+			sourceTree = "<group>";
+		};
+		96B10E3023E4F94B00174973 /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				96B10E1A23E4F7F600174973 /* AppDelegate.swift */,
+				96B10E1C23E4F7F600174973 /* SceneDelegate.swift */,
+				96B10E1E23E4F7F600174973 /* ViewController.swift */,
+				96B10E2023E4F7F600174973 /* Main.storyboard */,
+				96B10E2523E4F7F900174973 /* LaunchScreen.storyboard */,
+				96B10E2323E4F7F900174973 /* Assets.xcassets */,
+			);
+			path = "Demo App";
+			sourceTree = "<group>";
+		};
+		96B10E3123E4F96D00174973 /* Duck Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Duck Fireworks";
+			sourceTree = "<group>";
+		};
+		96B10E3223E4F97200174973 /* Pusheen Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Pusheen Fireworks";
+			sourceTree = "<group>";
+		};
+		96B10E3323E4F97800174973 /* Fountain Firework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Fountain Firework";
+			sourceTree = "<group>";
+		};
+		96B10E3423E4F97F00174973 /* Classic Firework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Classic Firework";
+			sourceTree = "<group>";
+		};
+		96B10E3523E4F98200174973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96B10E3623E4F98500174973 /* System Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "System Extensions";
+			sourceTree = "<group>";
+		};
+		96B10E3723E4F98B00174973 /* Spark Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Spark Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B10E1623E4F7F600174973 /* Firework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B10E2B23E4F7F900174973 /* Build configuration list for PBXNativeTarget "Firework" */;
+			buildPhases = (
+				96B10E1323E4F7F600174973 /* Sources */,
+				96B10E1423E4F7F600174973 /* Frameworks */,
+				96B10E1523E4F7F600174973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firework;
+			productName = Firework;
+			productReference = 96B10E1723E4F7F600174973 /* Firework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B10E0F23E4F7F600174973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = setsu;
+				TargetAttributes = {
+					96B10E1623E4F7F600174973 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 96B10E1223E4F7F600174973 /* Build configuration list for PBXProject "Firework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B10E0E23E4F7F600174973;
+			productRefGroup = 96B10E1823E4F7F600174973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B10E1623E4F7F600174973 /* Firework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B10E1523E4F7F600174973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B10E2723E4F7F900174973 /* LaunchScreen.storyboard in Resources */,
+				96B10E2423E4F7F900174973 /* Assets.xcassets in Resources */,
+				96B10E2223E4F7F600174973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B10E1323E4F7F600174973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B10E1F23E4F7F600174973 /* ViewController.swift in Sources */,
+				96B10E1B23E4F7F600174973 /* AppDelegate.swift in Sources */,
+				96B10E1D23E4F7F600174973 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96B10E2023E4F7F600174973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B10E2123E4F7F600174973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96B10E2523E4F7F900174973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B10E2623E4F7F900174973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B10E2923E4F7F900174973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96B10E2A23E4F7F900174973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B10E2C23E4F7F900174973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7M8X9G6SZ;
+				INFOPLIST_FILE = Firework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zizi.Firework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B10E2D23E4F7F900174973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7M8X9G6SZ;
+				INFOPLIST_FILE = Firework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zizi.Firework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B10E1223E4F7F600174973 /* Build configuration list for PBXProject "Firework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B10E2923E4F7F900174973 /* Debug */,
+				96B10E2A23E4F7F900174973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B10E2B23E4F7F900174973 /* Build configuration list for PBXNativeTarget "Firework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B10E2C23E4F7F900174973 /* Debug */,
+				96B10E2D23E4F7F900174973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B10E0F23E4F7F600174973 /* Project object */;
+}
