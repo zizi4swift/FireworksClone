@@ -22,6 +22,9 @@
 		96B10E4823E50DD300174973 /* Color+SparkSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4723E50DD300174973 /* Color+SparkSet.swift */; };
 		96B10E4A23E50ECF00174973 /* SparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4923E50ECF00174973 /* SparkViewFactory.swift */; };
 		96B10E4C23E50F7500174973 /* CircleColorSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4B23E50F7500174973 /* CircleColorSparkViewFactory.swift */; };
+		96B10E4E23E5105D00174973 /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4D23E5105D00174973 /* FireworkSpark.swift */; };
+		96B10E5023E510C800174973 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E4F23E510C800174973 /* Firework.swift */; };
+		96B10E5223E515C400174973 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E5123E515C400174973 /* CGPoint+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		96B10E4723E50DD300174973 /* Color+SparkSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+SparkSet.swift"; sourceTree = "<group>"; };
 		96B10E4923E50ECF00174973 /* SparkViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkViewFactory.swift; sourceTree = "<group>"; };
 		96B10E4B23E50F7500174973 /* CircleColorSparkViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColorSparkViewFactory.swift; sourceTree = "<group>"; };
+		96B10E4D23E5105D00174973 /* FireworkSpark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
+		96B10E4F23E510C800174973 /* Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		96B10E5123E515C400174973 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				96B10E3723E4F98B00174973 /* Spark Views */,
-				96B10E3623E4F98500174973 /* System Extensions */,
 				96B10E3523E4F98200174973 /* Model */,
 				96B10E3423E4F97F00174973 /* Classic Firework */,
 				96B10E3323E4F97800174973 /* Fountain Firework */,
@@ -154,15 +159,10 @@
 				96B10E3C23E502C300174973 /* SparkTrajectoryFactory.swift */,
 				96B10E4223E50CD200174973 /* SparkView.swift */,
 				96B10E4923E50ECF00174973 /* SparkViewFactory.swift */,
+				96B10E4D23E5105D00174973 /* FireworkSpark.swift */,
+				96B10E4F23E510C800174973 /* Firework.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		96B10E3623E4F98500174973 /* System Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "System Extensions";
 			sourceTree = "<group>";
 		};
 		96B10E3723E4F98B00174973 /* Spark Views */ = {
@@ -178,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				96B10E4723E50DD300174973 /* Color+SparkSet.swift */,
+				96B10E5123E515C400174973 /* CGPoint+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -254,9 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B10E3F23E5032E00174973 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
+				96B10E5223E515C400174973 /* CGPoint+Extensions.swift in Sources */,
 				96B10E3923E4FC6000174973 /* SparkTrajectory.swift in Sources */,
 				96B10E1F23E4F7F600174973 /* ViewController.swift in Sources */,
 				96B10E4C23E50F7500174973 /* CircleColorSparkViewFactory.swift in Sources */,
+				96B10E4E23E5105D00174973 /* FireworkSpark.swift in Sources */,
 				96B10E4523E50CFD00174973 /* CircleColorSparkView.swift in Sources */,
 				96B10E4A23E50ECF00174973 /* SparkViewFactory.swift in Sources */,
 				96B10E1B23E4F7F600174973 /* AppDelegate.swift in Sources */,
@@ -264,6 +267,7 @@
 				96B10E4123E503EB00174973 /* ClassicSparkTrajectoryFactory.swift in Sources */,
 				96B10E4323E50CD200174973 /* SparkView.swift in Sources */,
 				96B10E4823E50DD300174973 /* Color+SparkSet.swift in Sources */,
+				96B10E5023E510C800174973 /* Firework.swift in Sources */,
 				96B10E3D23E502C300174973 /* SparkTrajectoryFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

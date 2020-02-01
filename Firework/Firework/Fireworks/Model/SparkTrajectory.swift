@@ -17,6 +17,33 @@ protocol SparkTrajectory {
     var path: UIBezierPath { get }
 }
 
+extension SparkTrajectory {
+    
+    /// 軌跡のサイズに関してUI要件に適合するように軌跡をスケーリングします
+    /// 他のすべての変換が適用された後、「shift」の前に使用します
+    func scale(by value: CGFloat) -> SparkTrajectory {
+        var copy = self
+        (0..<self.points.count).forEach { copy.points[$0].multiply(by: value) }
+        return copy
+    }
+    
+    /// 軌跡を水平方向に反転します
+    func flip() -> SparkTrajectory {
+        var copy = self
+        (0..<self.points.count).forEach { copy.points[$0].x *= -1 }
+        return copy
+    }
+    
+    /// （x、y）だけ軌跡をシフトします。 各ポイントに適用されます。
+    /// 他のすべての変換が適用された後、および「scale」の後に使用します。
+    func shift(to point: CGPoint) -> SparkTrajectory {
+        var copy = self
+        let vector = CGVector(dx: point.x, dy: point.y)
+        (0..<self.points.count).forEach { copy.points[$0].add(vector: vector)}
+        return copy
+    }
+}
+
 /// 2つの制御点を持つベジェ曲線
 struct CubicBezierTrajectory: SparkTrajectory {
     // Custom BezierPath: https://www.desmos.com/calculator/epunzldltu
