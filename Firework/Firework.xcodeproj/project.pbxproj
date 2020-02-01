@@ -10,9 +10,9 @@
 		96183B3523E5553C00461FE8 /* SparkViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96183B3423E5553C00461FE8 /* SparkViewAnimator.swift */; };
 		96183B3723E5558900461FE8 /* ClassicFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96183B3623E5558900461FE8 /* ClassicFireworkAnimator.swift */; };
 		96183B3923E55A2A00461FE8 /* ClassicFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96183B3823E55A2A00461FE8 /* ClassicFireworkController.swift */; };
+		96183B3B23E5691C00461FE8 /* ClassicFireworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96183B3A23E5691C00461FE8 /* ClassicFireworkDemoViewController.swift */; };
 		96B10E1B23E4F7F600174973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1A23E4F7F600174973 /* AppDelegate.swift */; };
 		96B10E1D23E4F7F600174973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1C23E4F7F600174973 /* SceneDelegate.swift */; };
-		96B10E1F23E4F7F600174973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B10E1E23E4F7F600174973 /* ViewController.swift */; };
 		96B10E2223E4F7F600174973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2023E4F7F600174973 /* Main.storyboard */; };
 		96B10E2423E4F7F900174973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2323E4F7F900174973 /* Assets.xcassets */; };
 		96B10E2723E4F7F900174973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B10E2523E4F7F900174973 /* LaunchScreen.storyboard */; };
@@ -35,10 +35,10 @@
 		96183B3423E5553C00461FE8 /* SparkViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkViewAnimator.swift; sourceTree = "<group>"; };
 		96183B3623E5558900461FE8 /* ClassicFireworkAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFireworkAnimator.swift; sourceTree = "<group>"; };
 		96183B3823E55A2A00461FE8 /* ClassicFireworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFireworkController.swift; sourceTree = "<group>"; };
+		96183B3A23E5691C00461FE8 /* ClassicFireworkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFireworkDemoViewController.swift; sourceTree = "<group>"; };
 		96B10E1723E4F7F600174973 /* Firework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B10E1A23E4F7F600174973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B10E1C23E4F7F600174973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96B10E1E23E4F7F600174973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96B10E2123E4F7F600174973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96B10E2323E4F7F900174973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B10E2623E4F7F900174973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,10 +122,10 @@
 			children = (
 				96B10E1A23E4F7F600174973 /* AppDelegate.swift */,
 				96B10E1C23E4F7F600174973 /* SceneDelegate.swift */,
-				96B10E1E23E4F7F600174973 /* ViewController.swift */,
 				96B10E2023E4F7F600174973 /* Main.storyboard */,
 				96B10E2523E4F7F900174973 /* LaunchScreen.storyboard */,
 				96B10E2323E4F7F900174973 /* Assets.xcassets */,
+				96183B3A23E5691C00461FE8 /* ClassicFireworkDemoViewController.swift */,
 			);
 			path = "Demo App";
 			sourceTree = "<group>";
@@ -271,7 +271,6 @@
 				96B10E3F23E5032E00174973 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
 				96B10E5223E515C400174973 /* CGPoint+Extensions.swift in Sources */,
 				96B10E3923E4FC6000174973 /* SparkTrajectory.swift in Sources */,
-				96B10E1F23E4F7F600174973 /* ViewController.swift in Sources */,
 				96B10E4C23E50F7500174973 /* CircleColorSparkViewFactory.swift in Sources */,
 				96B10E4E23E5105D00174973 /* FireworkSpark.swift in Sources */,
 				96183B3523E5553C00461FE8 /* SparkViewAnimator.swift in Sources */,
@@ -281,6 +280,7 @@
 				96B10E1D23E4F7F600174973 /* SceneDelegate.swift in Sources */,
 				96B10E4123E503EB00174973 /* ClassicSparkTrajectoryFactory.swift in Sources */,
 				96B10E5423E519E800174973 /* ClassicFirework.swift in Sources */,
+				96183B3B23E5691C00461FE8 /* ClassicFireworkDemoViewController.swift in Sources */,
 				96B10E4323E50CD200174973 /* SparkView.swift in Sources */,
 				96B10E4823E50DD300174973 /* Color+SparkSet.swift in Sources */,
 				96B10E5023E510C800174973 /* Firework.swift in Sources */,

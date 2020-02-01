@@ -1,24 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Classic Firework Demo View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ClassicFireworkDemoViewController" customModule="Firework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select correct solution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BZ-dU-yBQ">
+                                <rect key="frame" x="8" y="182" width="359" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0+0 =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAv-UC-a2K">
+                                <rect key="frame" x="8" y="243.5" width="359" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="VjH-bH-uvK">
+                                <rect key="frame" x="83.5" y="325.5" width="208" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfA-Bg-rUW">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="NWj-S7-L5R"/>
+                                            <constraint firstAttribute="height" constant="50" id="ghh-nb-pqb"/>
+                                        </constraints>
+                                        <state key="normal" title="x"/>
+                                        <connections>
+                                            <action selector="btnTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVC-fQ-Ond"/>
+                                            <action selector="buttonTouchedDownWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyL-0I-OhE"/>
+                                            <action selector="buttonTouchedUpOutsideWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QZN-7t-AQM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRj-Ir-zfs">
+                                        <rect key="frame" x="79" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gs0-hg-Buu"/>
+                                            <constraint firstAttribute="width" constant="50" id="wuQ-Tf-Yrb"/>
+                                        </constraints>
+                                        <state key="normal" title="x"/>
+                                        <connections>
+                                            <action selector="btnTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8kP-8M-61m"/>
+                                            <action selector="buttonTouchedDownWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aJh-i7-u2O"/>
+                                            <action selector="buttonTouchedUpOutsideWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B1b-Ge-ZOZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHX-4M-Iq7">
+                                        <rect key="frame" x="158" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Qsn-te-aMI"/>
+                                            <constraint firstAttribute="height" constant="50" id="n56-PN-uqg"/>
+                                        </constraints>
+                                        <state key="normal" title="x"/>
+                                        <connections>
+                                            <action selector="btnTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2h5-bu-4lH"/>
+                                            <action selector="buttonTouchedDownWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ur2-MC-PJv"/>
+                                            <action selector="buttonTouchedUpOutsideWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oT6-Pq-g6F"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2BZ-dU-yBQ" secondAttribute="trailing" constant="8" id="Efh-Ok-iRB"/>
+                            <constraint firstItem="OAv-UC-a2K" firstAttribute="top" secondItem="2BZ-dU-yBQ" secondAttribute="bottom" constant="30" id="Nmc-4f-uVF"/>
+                            <constraint firstItem="OAv-UC-a2K" firstAttribute="leading" secondItem="2BZ-dU-yBQ" secondAttribute="leading" id="Pkw-VD-7sn"/>
+                            <constraint firstItem="OAv-UC-a2K" firstAttribute="trailing" secondItem="2BZ-dU-yBQ" secondAttribute="trailing" id="RHl-Cg-gTp"/>
+                            <constraint firstItem="2BZ-dU-yBQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="SoR-4F-l4y"/>
+                            <constraint firstItem="OAv-UC-a2K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UTk-wC-reB"/>
+                            <constraint firstItem="VjH-bH-uvK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAa-Ad-55w"/>
+                            <constraint firstItem="VjH-bH-uvK" firstAttribute="top" secondItem="OAv-UC-a2K" secondAttribute="bottom" constant="55.5" id="hCy-FG-Jtr"/>
+                            <constraint firstItem="2BZ-dU-yBQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pUk-GN-NZ1"/>
+                            <constraint firstItem="2BZ-dU-yBQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="teX-2O-PF8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btn1" destination="BfA-Bg-rUW" id="oEP-pZ-Zoc"/>
+                        <outlet property="btn2" destination="jRj-Ir-zfs" id="1mh-SS-e7R"/>
+                        <outlet property="btn3" destination="HHX-4M-Iq7" id="PSr-Uf-zWF"/>
+                        <outlet property="label" destination="OAv-UC-a2K" id="CEk-fl-Z8D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="104"/>
         </scene>
     </scenes>
 </document>
